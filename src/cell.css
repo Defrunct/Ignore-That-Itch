@@ -1,0 +1,86 @@
+.game_cell_tools {
+  text-align: right;
+}
+
+.game_cell_tools .action_btn {
+  margin-left: 5px;
+}
+
+.game_cell .iti_icon::before {
+  content: unset;
+}
+
+.base_widget .game_cell .iti_icon {
+  font-family: "Material Symbols Rounded" !important;
+  font-size: 18px;
+}
+
+.base_widget button.iti_icon {
+  max-width: unset;
+}
+
+.game_cell[data-iti_ignored_cell] {
+  opacity: 0.05;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.game_cell[data-iti_ignored_cell]:hover {
+  opacity: 0.75;
+}
+
+.iti_cell_overlay {
+  position: absolute;
+  inset: 0;
+  color: var(--itchio_body_color);
+  background-color: var(--itchio_white_back);
+  opacity: 0.95;
+  font-size: 14px;
+  font-weight: bold;
+  user-select: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
+}
+
+.iti_cell_overlay * {
+  display: flex;
+  align-items: center;
+}
+
+.iti_cell_overlay a {
+  cursor: pointer;
+}
+
+.iti_cell_overlay_label {
+  cursor: default;
+  font-size: 16px;
+}
+
+.iti_cell_overlay .iti_cell_unignore_btn {
+  color: #eee;
+  border: 4px solid #da2c49;
+  border-radius: 3px;
+  background: rgba(30, 30, 30, 0.8);
+  padding: 2px 4px;
+}
+
+.iti_cell_overlay .iti_cell_unignore_btn:hover {
+  border-color: #de425c;
+  background: rgba(40, 40, 40, 0.8);
+}
+
+.iti_cell_overlay .iti_icon {
+  color: inherit;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.iti_cell_overlay_label .iti_icon {
+  margin-left: 4px;
+}
+
+.iti_cell_unignore_btn .iti_icon {
+  margin-right: 4px;
+}

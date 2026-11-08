@@ -1,0 +1,43 @@
+{
+  "extensionDescription": {
+    "message": "Adds \"Ignore\" button for game and product pages on itch.io."
+  },
+  
+  "buttonIgnoreText": {
+    "message": "Ignore"
+  },
+  "buttonShowText": {
+    "message": "Show"
+  },
+  "buttonNoteText": {
+    "message": "Note"
+  },
+  "overlayIgnoredText": {
+    "message": "Ignored"
+  },
+  "noteChangeTooltip": {
+    "message": "Add note"
+  },
+
+  "optionsButtonImport": {
+    "message": "Import"
+  },
+  "optionsTooltipImport": {
+    "message": "Replace the current ignore list with a list from a file.\nThis action will ERASE current list!"
+  },
+  "optionsButtonMerge": {
+    "message": "Merge"
+  },
+  "optionsTooltipMerge": {
+    "message": "Merge the current ignore list with a list from a file"
+  },
+  "optionsButtonExport": {
+    "message": "Export"
+  },
+  "optionsTooltipExport": {
+    "message": "Save the current ignore list to a file"
+  },
+  "optionsCounterLabel": {
+    "message": "Ignored:"
+  }
+}

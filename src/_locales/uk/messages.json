@@ -1,0 +1,43 @@
+{
+  "extensionDescription": {
+    "message": "Додає кнопку «Ігнорувати» для ігор та інших товарів на itch.io."
+  },
+  
+  "buttonIgnoreText": {
+    "message": "Ігнорувати"
+  },
+  "buttonShowText": {
+    "message": "Показувати"
+  },
+  "buttonNoteText": {
+    "message": "Примітка"
+  },
+  "overlayIgnoredText": {
+    "message": "Ігнорується"
+  },
+  "noteChangeTooltip": {
+    "message": "Додати примітку"
+  },
+
+  "optionsButtonImport": {
+    "message": "Імпортувати"
+  },
+  "optionsTooltipImport": {
+    "message": "Замінити наяний список ігнорованого списком з файлу.\nЦя дія ВИДАЛИТЬ наявний список!"
+  },
+  "optionsButtonMerge": {
+    "message": "Об’єднати"
+  },
+  "optionsTooltipMerge": {
+    "message": "Об’єднати наявний список ігнорованого зі списком з файлу"
+  },
+  "optionsButtonExport": {
+    "message": "Експортувати"
+  },
+  "optionsTooltipExport": {
+    "message": "Зберегти список ігнорованого у файл"
+  },
+  "optionsCounterLabel": {
+    "message": "Ігноровано:"
+  }
+}

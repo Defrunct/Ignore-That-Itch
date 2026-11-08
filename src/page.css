@@ -1,0 +1,32 @@
+#user_tools .iti_page_button {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#user_tools .iti_icon {
+  color: white;
+  font-size: 1.625em;
+  font-weight: 350;
+  margin-right: 4px;
+  max-height: 1em;
+}
+
+.iti_page_overlay {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  background-color: black;
+  opacity: 0.5;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.iti_page_overlay_label {
+  text-transform: uppercase;
+  color: white;
+  font-size: 5em;
+  font-weight: bold;
+  margin: 0 1em;
+}

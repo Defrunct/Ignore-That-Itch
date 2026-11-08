@@ -1,0 +1,9 @@
+.iti_icon {
+  font-family: "Material Symbols Rounded" !important;
+  max-width: 1em;
+  overflow: hidden;
+}
+
+.iti_hidden {
+  display: none !important;
+}
