@@ -1,3 +1,4 @@
+[latest-download]: https://github.com/Defrunct/Ignore-That-Itch/releases/latest/download/Ignore-That-Itch.zip
 <div align="center">
 
 ![Ignore That Itch icon](../src/icons/icon128.png)
@@ -22,37 +23,39 @@ README in English\
 
 ## Install
 ### Firefox
-1. Open [extension's page]() on the Firefox Add-on store.
+1. Open [extension's page](https://addons.mozilla.org/addon/ignore-that-itch/) on the Firefox Add-on store.
 2. Click the "Add to Firefox" button.
 3. When prompted, click "Add".
-
-You can select "Allow extension to run in private windows" so that Ignore That Itch works there as well.
+> [!NOTE]
+> You can select "Allow extension to run in private windows" so that Ignore That Itch works there as well.
 
 ### Google Chrome and other browsers
-1. Download the [archive]() containing the extension files.
+1. Download the [archive][latest-download] containing the extension files.
 2. Extract it to a folder of your choice.
-3. Open your browser and go to the extensions management page ([chrome://extensions/](chrome://extensions)).
+3. Open your browser and go to the extensions management page (`chrome://extensions/`).
 4. Enable "Developer mode".
 5. Click "Load unpacked".
 6. Select the folder containing the extracted Ignore That Itch files (it must contain `manifest.json`).
+> [!IMPORTANT]
+> Don't disable "Developer mode", or the extension won't work.
 
-Don't disable "Developer mode", or the extension won't work.
-
-To use Ignore That Itch in Incognito mode, open "Details" and enable "Allow in Incognito".
+> [!NOTE]
+> To use Ignore That Itch in Incognito mode, open "Details" and enable "Allow in Incognito".
 
 ## Update
 The Firefox version updates automatically.
 
 For other browsers follow these steps:
-1. Download the [archive]() containing the extension files.
+1. Download the [archive][latest-download] containing the extension files.
 2. Open the folder where you installed the extension.
 3. Replace its contents with the files from the archive.
 4. Restart your browser.\
-   Or open the extensions management page ([chrome://extensions/](chrome://extensions)) and click "Update".
+   Or open the extensions management page (`chrome://extensions/`) and click "Update".
+> [!IMPORTANT]
+> You should make a backup of your ignore list before updating. To do so, click the "Export" button in the extension's settings.
 
-You should make a backup of your ignore list before updating. To do so, click the "Export" button in the extension's settings.
-
-You can subscribe to this repository's releases to receive notifications about new versions of the extension.
+> [!NOTE]
+> You can subscribe to this repository's releases to receive notifications about new versions of the extension.
 
 ### Why doesn't the Chrome version update automatically?
 Google charges $5 fee to register developer account in their store.
